@@ -1,0 +1,39 @@
+ 
+ *  {
+     padding: 0px;
+     margin: 0px;
+ }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1  {
+    color: green;
+    
+}
+#game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     box-shadow: green 20px 15px 50px; 
+  }
+ 
+  #startBtn {
+    color: aliceblue;
+    border: none;
+    background: none;
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
